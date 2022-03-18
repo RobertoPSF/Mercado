@@ -1,4 +1,4 @@
-# Mercado
+# MercadoPy
 
 Feito na versão 3.9 do Python
 
