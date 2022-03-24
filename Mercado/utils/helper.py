@@ -6,7 +6,7 @@ def data_para_str(data: date) -> str:
 
 
 def str_para_data(data: str) -> date:
-    return datetime.strftime(data, '%d/%m/%Y')
+    return datetime.strptime(data, '%d/%m/%Y')
 
 
 def formata_float_para_moeda(valor: float) -> str:
